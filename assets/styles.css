@@ -17,7 +17,10 @@
             margin-top: 200px;
     }
     }
-
+a{
+  text-decoration: none ;
+  color: white ;
+}
 
 .hero {
   position: relative;
@@ -46,14 +49,14 @@
     rgba(0, 0, 0, 0.85) 50%,
     rgba(0, 0, 0, 0.7) 100%
   );
-  z-index: 2; /* filtro encima del fondo, debajo del texto */
+  z-index: 2; 
 }
 .hero-content {
     position: relative;
   display: grid;
   grid-template-columns: 1fr;
   gap: 3rem;
-    z-index: 3; /* contenido arriba de todo */
+    z-index: 3; 
 }
 .hero  {
   position: relative;
